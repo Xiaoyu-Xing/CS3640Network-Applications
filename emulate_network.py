@@ -49,5 +49,5 @@ def test_pingall(topology):
         return False
         
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
 	test_pingall(create_new_topology([1, 2, 1]))
